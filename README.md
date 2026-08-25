@@ -30,6 +30,8 @@ API-Security-Assessment-Framework/
 │   ├── PROJECT_DOCUMENTATION.md
 │   ├── README.md
 │   └── images/
+│       ├── project-architecture.webp
+│       └── project-screenshots.webp
 ├── requirements.txt
 └── README.md
 ```
@@ -86,16 +88,15 @@ python security_scanner.py
 
 ## Screenshots & Visual Evidence
 
-The final project report contains visual evidence for the implementation and testing process. The repository's `docs/images/` section is reserved for the extracted screenshots and diagrams, including:
+The repository includes visual evidence extracted from the final project documentation. The images cover the project architecture, implementation, scanner execution, Postman testing, OWASP ZAP assessment, Burp Suite analysis, and security assessment results.
 
-- Python and virtual-environment setup
-- Flask API execution
-- Custom security scanner execution and results
-- Project architecture and scanner workflow
-- Postman API testing
-- OWASP ZAP scanning, Spider results and alerts
-- Burp Suite request interception and analysis
-- Generated report evidence
+**Project architecture:**
+
+![Project Architecture](docs/images/project-architecture.webp)
+
+**Project screenshots:**
+
+![Project Screenshots](docs/images/project-screenshots.webp)
 
 ## Security Assessment Result
 
