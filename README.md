@@ -29,7 +29,9 @@ API-Security-Assessment-Framework/
 ├── docs/
 │   ├── PROJECT_DOCUMENTATION.md
 │   ├── README.md
-│   └── images/
+│   ├── images/
+│   └── screenshots/
+│       ├── README.md
 │       ├── project-architecture.webp
 │       └── project-screenshots.webp
 ├── requirements.txt
@@ -88,15 +90,17 @@ python security_scanner.py
 
 ## Screenshots & Visual Evidence
 
-The repository includes visual evidence extracted from the final project documentation. The images cover the project architecture, implementation, scanner execution, Postman testing, OWASP ZAP assessment, Burp Suite analysis, and security assessment results.
+The repository includes visual evidence from the final project documentation.
 
-**Project architecture:**
+**Project Architecture**
 
-![Project Architecture](docs/images/project-architecture.webp)
+![Project Architecture](docs/screenshots/project-architecture.webp)
 
-**Project screenshots:**
+**Project Screenshots**
 
-![Project Screenshots](docs/images/project-screenshots.webp)
+![Project Screenshots](docs/screenshots/project-screenshots.webp)
+
+See the complete screenshots directory: [docs/screenshots](docs/screenshots/)
 
 ## Security Assessment Result
 
