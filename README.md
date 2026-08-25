@@ -24,21 +24,12 @@ The framework also generates HTML and PDF security assessment reports.
 ```text
 API-Security-Assessment-Framework/
 ├── api_server/
-│   ├── app.py
-│   └── templates/
 ├── scanner/
-│   ├── security_scanner.py
-│   ├── auth_scanner.py
-│   ├── jwt_analyzer.py
-│   ├── sql_injection.py
-│   ├── xss_scanner.py
-│   ├── idor_scanner.py
-│   ├── parameter_tampering.py
-│   ├── zap_scanner.py
-│   ├── zap_parser.py
-│   ├── report_generator.py
-│   └── pdf_report.py
 ├── reports/
+├── docs/
+│   ├── PROJECT_DOCUMENTATION.md
+│   ├── README.md
+│   └── images/
 ├── requirements.txt
 └── README.md
 ```
@@ -92,6 +83,19 @@ python security_scanner.py
 4. Run OWASP ZAP Spider and Active Scan.
 5. Use Burp Suite to intercept and inspect API requests.
 6. Review the generated HTML and PDF reports.
+
+## Screenshots & Visual Evidence
+
+The final project report contains visual evidence for the implementation and testing process. The repository's `docs/images/` section is reserved for the extracted screenshots and diagrams, including:
+
+- Python and virtual-environment setup
+- Flask API execution
+- Custom security scanner execution and results
+- Project architecture and scanner workflow
+- Postman API testing
+- OWASP ZAP scanning, Spider results and alerts
+- Burp Suite request interception and analysis
+- Generated report evidence
 
 ## Security Assessment Result
 
