@@ -29,11 +29,10 @@ API-Security-Assessment-Framework/
 ├── docs/
 │   ├── PROJECT_DOCUMENTATION.md
 │   ├── README.md
-│   ├── images/
 │   └── screenshots/
 │       ├── README.md
-│       ├── project-architecture.webp
-│       └── project-screenshots.webp
+│       ├── project-architecture.jpg
+│       └── project-screenshots.jpg
 ├── requirements.txt
 └── README.md
 ```
@@ -90,15 +89,15 @@ python security_scanner.py
 
 ## Screenshots & Visual Evidence
 
-The repository includes visual evidence from the final project documentation.
+The repository includes visual evidence extracted directly from the final project report.
 
-**Project Architecture**
+### Project Architecture
 
-![Project Architecture](docs/screenshots/project-architecture.webp)
+![Project Architecture](docs/screenshots/project-architecture.jpg)
 
-**Project Screenshots**
+### Project Screenshots
 
-![Project Screenshots](docs/screenshots/project-screenshots.webp)
+![Project Screenshots](docs/screenshots/project-screenshots.jpg)
 
 See the complete screenshots directory: [docs/screenshots](docs/screenshots/)
 
